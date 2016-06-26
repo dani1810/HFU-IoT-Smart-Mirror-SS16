@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <setting id="mqtt_server" type="text" default="192.168.2.128" />
+    <setting id="mqtt_server_port" type="number" default="1883" />
+    <setting id="mqtt_topic_publish" type="text" default="#/" />
+</settings>

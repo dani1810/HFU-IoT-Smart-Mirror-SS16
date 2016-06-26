@@ -1,0 +1,20 @@
+<keymap>
+	<global>
+		<remote>
+			<star>ActivateWindow(Favourites)</star>	
+			<pageminus>ActivateWindow(Home)</pageminus>
+			<power>Screenshot</power>
+		</remote>
+	</global>
+	<FullscreenVideo>
+		<remote>
+			<back>SmallStepBack</back>
+			<pageminus>AudioNextLanguage</pageminus>			
+		</remote>
+	</FullscreenVideo>
+	<Home>
+	    <remote>
+			<pageplus>ActivateWindow(SystemInfo,Hardware)</pageplus>
+	    </remote>
+  </Home>
+</keymap>

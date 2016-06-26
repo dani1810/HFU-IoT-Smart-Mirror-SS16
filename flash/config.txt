@@ -1,0 +1,15 @@
+## Please do not Overwrite your config.txt. Just make sure you use these lines in your config ##
+# Makes sure, that the Raspberry Pi uses his full potential and don´t make any underclocking
+force_turbo=1
+
+# Activates SPI-Pins for the LED Stripes
+dtparam=spi=on
+
+# Activates the LIRC-Modul for the remote control
+dtoverlay=lirc-rpi
+
+# Forces the raspberry pi to start without waiting for any hdmi device ==> accelerates the boot
+hdmi_force_hotplug=1
+
+# Don´t limit the current on usb ports
+max_usb_current=1

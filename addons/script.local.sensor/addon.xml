@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.weather.local.sensor" name="Lokaler Sensor" version="1.0.0" provider-name="doerflir">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="de">Daten des DHT22 Sensors</summary>
+		<description lang="de">Dieses Addon zeigt die Wetterdaten des DHT22 Sensors an, sofern dieser an den PIN18 angeschlossen ist. Das RPi.GPIO-Addon sollte dazu bereits installiert sein. ©Copyright Daniel Künkel, Martin Dörflinger</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<email>doerflir@hs-furtwangen.de</email>
+	</extension>
+</addon>
